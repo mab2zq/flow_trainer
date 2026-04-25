@@ -15,3 +15,15 @@
 	GPUs_GPU_0d3184cb = [ Id = "GPU-0d3184cb"; ClockMhz = 1590.0; Capability = 7.5; CoresPerCU = 64; DeviceName = "Tesla T4"; DeviceUuid = "0d3184cb-044b-6a85-e661-54a626111c00"; ECCEnabled = true; ComputeUnits = 40; DriverVersion = 13.0; DevicePciBusId = "0000:07:00.0"; GlobalMemoryMb = 14913; MaxSupportedVersion = 13000 ]
 	Memory = 12000
 ...
+006 (15000010.000.000) 04/25 07:00:00 Image size of job updated: 245200
+	240  -  MemoryUsage of job (MB)
+	245200  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:05:00 Image size of job updated: 2066944
+	2016  -  MemoryUsage of job (MB)
+	2063740  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:10:01 Image size of job updated: 2070268
+	2016  -  MemoryUsage of job (MB)
+	2063740  -  ResidentSetSize of job (KB)
+...
