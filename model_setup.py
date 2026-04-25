@@ -32,9 +32,9 @@ conditions_dim = 0 if training_conditions is None else training_conditions.shape
 # Hyperparameters
 # -------------------------
 n_transforms = 2
-n_splines_bins = 8
-aux_nodes = 256
-aux_layers = 2
+n_splines_bins = 24
+aux_nodes = 512
+aux_layers = 3
 n_passes_flow = 2
 initial_lr = 3e-3
 scheduler_patience = 5

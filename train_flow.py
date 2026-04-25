@@ -3,7 +3,6 @@
 
 import os
 import time
-import argparse
 from pathlib import Path
 
 import torch
@@ -33,22 +32,8 @@ accum_steps = 4
 cluster = os.environ.get("CONDOR_CLUSTER")
 proc = os.environ.get("CONDOR_PROC")
 
-parser = argparse.ArgumentParser()
-parser.add_argument(
-    "--run-dir",
-    type=str,
-    default=None,
-    help="Optional directory for saving checkpoints",
-)
-args = parser.parse_args()
-
 # Default behavior (original)
-default_save_dir = f"/afs/cern.ch/user/m/mbaessle/flow_trainer/checkpoints/"
-
-# If user passes --run-dir, override
-save_dir = args.run_dir if args.run_dir is not None else default_save_dir
-
-Path(save_dir).mkdir(parents=True, exist_ok=True)
+save_dir = f"/afs/cern.ch/user/m/mbaessle/flow_trainer/checkpoints"
 
 training_loss_array = []
 validation_loss_array = []
