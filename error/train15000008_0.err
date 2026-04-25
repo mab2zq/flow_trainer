@@ -1,0 +1,9 @@
+/pool/condor/dir_479175/run_train.sh: line 8: cd: /afs/cern.ch/user/m/mbaessler/flow_trainer: No such file or directory
+Traceback (most recent call last):
+  File "/pool/condor/dir_479175/train_flow.py", line 166, in <module>
+    main()
+    ~~~~^^
+  File "/pool/condor/dir_479175/train_flow.py", line 71, in main
+    print(f"Cluster: {cluster_safe}   Process: {proc_safe}")
+                      ^^^^^^^^^^^^
+NameError: name 'cluster_safe' is not defined

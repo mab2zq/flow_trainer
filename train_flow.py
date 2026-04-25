@@ -68,7 +68,7 @@ def train_step(inputs, conditions, weights):
 
 def main():
     print("# -------------------------")
-    print(f"Cluster: {cluster_safe}   Process: {proc_safe}")
+    print(f"Cluster: {cluster}   Process: {proc}")
     print("# -------------------------")
     print("# Hyperparameters")
     print("# -------------------------")
