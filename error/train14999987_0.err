@@ -1,0 +1,5 @@
+/pool/condor/dir_2078645/run_train.sh: line 8: cd: /afs/cern.ch/user/m/mbaessler/flow_trainer: No such file or directory
+  File "/pool/condor/dir_2078645/train_flow.py", line 71
+    	for k, v in params.items():
+    ^
+TabError: inconsistent use of tabs and spaces in indentation

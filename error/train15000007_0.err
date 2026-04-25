@@ -1,0 +1,22 @@
+/pool/condor/dir_1480930/run_train.sh: line 8: cd: /afs/cern.ch/user/m/mbaessler/flow_trainer: No such file or directory
+Traceback (most recent call last):
+  File "/pool/condor/dir_1480930/train_flow.py", line 167, in <module>
+    main()
+    ~~~~^^
+  File "/pool/condor/dir_1480930/train_flow.py", line 153, in main
+    torch.save(
+    ~~~~~~~~~~^
+        {
+        ^
+    ...<6 lines>...
+        os.path.join(save_dir, f"best_model_epoch_{epoch}.pth"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_109_cuda/x86_64-el9-gcc13-opt/lib/python3.13/site-packages/torch/serialization.py", line 976, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_109_cuda/x86_64-el9-gcc13-opt/lib/python3.13/site-packages/torch/serialization.py", line 808, in __exit__
+    self.file_like.write_end_of_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: basic_ios::clear: iostream error
