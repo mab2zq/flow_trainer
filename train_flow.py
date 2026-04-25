@@ -157,7 +157,7 @@ def main():
                     "training_loss_array": training_loss_array,
                     "validation_loss_array": validation_loss_array,
                 },
-                os.path.join(save_dir, f"best_model_{cluster}_{proc}.pth"),
+                os.path.join(save_dir, f"best_model_{cluster}.pth"),
             )
             break
 

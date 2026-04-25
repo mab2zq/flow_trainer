@@ -27,3 +27,56 @@
 	2016  -  MemoryUsage of job (MB)
 	2063740  -  ResidentSetSize of job (KB)
 ...
+006 (15000010.000.000) 04/25 07:15:01 Image size of job updated: 2071232
+	2016  -  MemoryUsage of job (MB)
+	2063740  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:20:01 Image size of job updated: 2071812
+	2016  -  MemoryUsage of job (MB)
+	2063740  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:25:02 Image size of job updated: 2074300
+	2016  -  MemoryUsage of job (MB)
+	2063740  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:30:03 Image size of job updated: 2074840
+	2016  -  MemoryUsage of job (MB)
+	2063740  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:35:03 Image size of job updated: 2124252
+	2054  -  MemoryUsage of job (MB)
+	2102896  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:40:04 Image size of job updated: 2147356
+	2077  -  MemoryUsage of job (MB)
+	2126476  -  ResidentSetSize of job (KB)
+...
+006 (15000010.000.000) 04/25 07:41:02 Image size of job updated: 2152336
+	2077  -  MemoryUsage of job (MB)
+	2126476  -  ResidentSetSize of job (KB)
+...
+040 (15000010.000.000) 04/25 07:41:02 Started transferring output files
+...
+040 (15000010.000.000) 04/25 07:41:02 Finished transferring output files
+...
+005 (15000010.000.000) 04/25 07:41:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:27:47, Sys 0 00:02:55  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:27:47, Sys 0 00:02:55  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	15353  -  Run Bytes Sent By Job
+	9678  -  Run Bytes Received By Job
+	15353  -  Total Bytes Sent By Job
+	9678  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     2.41        4         4 
+	   Disk (KB)            :    73          12      2052 
+	   GPUs                 :     0.88        1         1 "GPU-0d3184cb"
+	   GpusMemory (MB)      :  3235                       
+	   Memory (MB)          :  2077       12000     12000 
+	   TimeExecute (s)      :  2475                       
+	   TimeSlotBusy (s)     :  2477                       
+
+	Job terminated of its own accord at 2026-04-25T05:41:02Z with exit-code 0.
+...
