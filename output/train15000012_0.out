@@ -1,0 +1,163 @@
+# -------------------------
+Cluster: 15000012;CONDOR_PROC=0   Process: None
+# -------------------------
+# Hyperparameters
+# -------------------------
+n_transforms        : 2
+n_splines_bins      : 40
+aux_nodes           : 256
+aux_layers          : 2
+n_passes_flow       : 2
+initial_lr          : 0.003
+scheduler_patience  : 5
+early_stop_patience : 15
+batch_size          : 32768
+weight_decay        : 1e-05
+max_epoch_number    : 250
+z_width             : 20
+conditions_dim      : 9
+Epoch 000 | Train loss: 109.174448 | Val loss: 51.786565 | epoch time: 3.00s
+Epoch 001 | Train loss: 38.713884 | Val loss: 31.346121 | epoch time: 2.71s
+Epoch 002 | Train loss: 29.144157 | Val loss: 27.188122 | epoch time: 2.74s
+Epoch 003 | Train loss: 26.500156 | Val loss: 26.627943 | epoch time: 2.83s
+Epoch 004 | Train loss: 25.374909 | Val loss: 24.044911 | epoch time: 2.53s
+Epoch 005 | Train loss: 24.458123 | Val loss: 24.598273 | epoch time: 2.64s
+Epoch 006 | Train loss: 24.045165 | Val loss: 23.558303 | epoch time: 2.54s
+Epoch 007 | Train loss: 23.532810 | Val loss: 23.200745 | epoch time: 2.66s
+Epoch 008 | Train loss: 22.969150 | Val loss: 23.055349 | epoch time: 2.50s
+Epoch 009 | Train loss: 22.725733 | Val loss: 22.288166 | epoch time: 2.58s
+Epoch 010 | Train loss: 22.138917 | Val loss: 21.871293 | epoch time: 2.64s
+Epoch 011 | Train loss: 22.183377 | Val loss: 21.747332 | epoch time: 2.73s
+Epoch 012 | Train loss: 21.466715 | Val loss: 21.569566 | epoch time: 2.81s
+Epoch 013 | Train loss: 21.254458 | Val loss: 20.601868 | epoch time: 2.46s
+Epoch 014 | Train loss: 20.680907 | Val loss: 20.916811 | epoch time: 2.61s
+Epoch 015 | Train loss: 20.557552 | Val loss: 19.707933 | epoch time: 2.66s
+Epoch 016 | Train loss: 19.905092 | Val loss: 19.341027 | epoch time: 2.51s
+Epoch 017 | Train loss: 19.705195 | Val loss: 19.085423 | epoch time: 2.67s
+Epoch 018 | Train loss: 19.506751 | Val loss: 20.809966 | epoch time: 2.79s
+Epoch 019 | Train loss: 20.169313 | Val loss: 19.815956 | epoch time: 2.58s
+Epoch 020 | Train loss: 19.485596 | Val loss: 18.889776 | epoch time: 2.66s
+Epoch 021 | Train loss: 18.724953 | Val loss: 18.331736 | epoch time: 2.82s
+Epoch 022 | Train loss: 18.328323 | Val loss: 17.762693 | epoch time: 2.62s
+Epoch 023 | Train loss: 18.650949 | Val loss: 17.990961 | epoch time: 2.86s
+Epoch 024 | Train loss: 18.423366 | Val loss: 18.217783 | epoch time: 2.70s
+Epoch 025 | Train loss: 18.096414 | Val loss: 17.784938 | epoch time: 2.54s
+Epoch 026 | Train loss: 18.166180 | Val loss: 18.609939 | epoch time: 2.35s
+Epoch 027 | Train loss: 18.357249 | Val loss: 18.174647 | epoch time: 2.46s
+Epoch 028 | Train loss: 18.204125 | Val loss: 17.956063 | epoch time: 2.45s
+Epoch 029 | Train loss: 17.381537 | Val loss: 16.949191 | epoch time: 2.59s
+Epoch 030 | Train loss: 16.807792 | Val loss: 16.713455 | epoch time: 2.64s
+Epoch 031 | Train loss: 16.601675 | Val loss: 16.619982 | epoch time: 2.46s
+Epoch 032 | Train loss: 16.446791 | Val loss: 16.470692 | epoch time: 2.55s
+Epoch 033 | Train loss: 16.345697 | Val loss: 16.612358 | epoch time: 2.72s
+Epoch 034 | Train loss: 16.370790 | Val loss: 16.412190 | epoch time: 2.55s
+Epoch 035 | Train loss: 16.259962 | Val loss: 16.180149 | epoch time: 2.73s
+Epoch 036 | Train loss: 16.204719 | Val loss: 16.196181 | epoch time: 2.41s
+Epoch 037 | Train loss: 16.091303 | Val loss: 16.077787 | epoch time: 2.67s
+Epoch 038 | Train loss: 15.941893 | Val loss: 15.981295 | epoch time: 2.65s
+Epoch 039 | Train loss: 15.885170 | Val loss: 15.956685 | epoch time: 2.68s
+Epoch 040 | Train loss: 15.817867 | Val loss: 15.852424 | epoch time: 2.47s
+Epoch 041 | Train loss: 15.811197 | Val loss: 15.760987 | epoch time: 2.46s
+Epoch 042 | Train loss: 15.860854 | Val loss: 15.773062 | epoch time: 2.59s
+Epoch 043 | Train loss: 15.782907 | Val loss: 15.685389 | epoch time: 2.60s
+Epoch 044 | Train loss: 15.651140 | Val loss: 15.643252 | epoch time: 2.51s
+Epoch 045 | Train loss: 15.554165 | Val loss: 15.637898 | epoch time: 2.77s
+Epoch 046 | Train loss: 15.585193 | Val loss: 15.537175 | epoch time: 2.47s
+Epoch 047 | Train loss: 15.689070 | Val loss: 15.510296 | epoch time: 2.69s
+Epoch 048 | Train loss: 15.465959 | Val loss: 15.485523 | epoch time: 2.72s
+Epoch 049 | Train loss: 15.385447 | Val loss: 15.530756 | epoch time: 2.35s
+Epoch 050 | Train loss: 15.321108 | Val loss: 15.391824 | epoch time: 2.41s
+Epoch 051 | Train loss: 15.184723 | Val loss: 15.186961 | epoch time: 2.32s
+Epoch 052 | Train loss: 15.168190 | Val loss: 15.224796 | epoch time: 2.51s
+Epoch 053 | Train loss: 15.082083 | Val loss: 15.249535 | epoch time: 2.47s
+Epoch 054 | Train loss: 15.117333 | Val loss: 15.047966 | epoch time: 2.58s
+Epoch 055 | Train loss: 15.047117 | Val loss: 15.041114 | epoch time: 2.53s
+Epoch 056 | Train loss: 15.098795 | Val loss: 15.219767 | epoch time: 2.46s
+Epoch 057 | Train loss: 14.968930 | Val loss: 15.166074 | epoch time: 2.62s
+Epoch 058 | Train loss: 15.070328 | Val loss: 14.868350 | epoch time: 2.41s
+Epoch 059 | Train loss: 15.181542 | Val loss: 15.272836 | epoch time: 2.73s
+Epoch 060 | Train loss: 15.144107 | Val loss: 15.132269 | epoch time: 2.55s
+Epoch 061 | Train loss: 14.965609 | Val loss: 15.077923 | epoch time: 2.69s
+Epoch 062 | Train loss: 14.960615 | Val loss: 14.877802 | epoch time: 2.56s
+Epoch 063 | Train loss: 15.018081 | Val loss: 14.866368 | epoch time: 2.60s
+Epoch 064 | Train loss: 14.767606 | Val loss: 14.974205 | epoch time: 2.48s
+Epoch 065 | Train loss: 14.761982 | Val loss: 15.100668 | epoch time: 2.75s
+Epoch 066 | Train loss: 14.774218 | Val loss: 14.639975 | epoch time: 2.49s
+Epoch 067 | Train loss: 14.682470 | Val loss: 14.735861 | epoch time: 2.61s
+Epoch 068 | Train loss: 14.577439 | Val loss: 14.609608 | epoch time: 2.61s
+Epoch 069 | Train loss: 14.572598 | Val loss: 14.810667 | epoch time: 2.54s
+Epoch 070 | Train loss: 14.802892 | Val loss: 14.877623 | epoch time: 2.51s
+Epoch 071 | Train loss: 14.724358 | Val loss: 14.749935 | epoch time: 2.47s
+Epoch 072 | Train loss: 14.621169 | Val loss: 14.644277 | epoch time: 2.72s
+Epoch 073 | Train loss: 14.508037 | Val loss: 14.663590 | epoch time: 2.46s
+Epoch 074 | Train loss: 14.552421 | Val loss: 14.471347 | epoch time: 2.70s
+Epoch 075 | Train loss: 14.406575 | Val loss: 14.594806 | epoch time: 2.53s
+Epoch 076 | Train loss: 14.548256 | Val loss: 14.633833 | epoch time: 2.76s
+Epoch 077 | Train loss: 14.553960 | Val loss: 14.472547 | epoch time: 2.56s
+Epoch 078 | Train loss: 14.622520 | Val loss: 14.650172 | epoch time: 2.76s
+Epoch 079 | Train loss: 14.477326 | Val loss: 14.555223 | epoch time: 2.56s
+Epoch 080 | Train loss: 14.411459 | Val loss: 14.481379 | epoch time: 2.69s
+Epoch 081 | Train loss: 14.211498 | Val loss: 14.266846 | epoch time: 2.64s
+Epoch 082 | Train loss: 14.094040 | Val loss: 14.248753 | epoch time: 2.76s
+Epoch 083 | Train loss: 14.032688 | Val loss: 14.120880 | epoch time: 2.70s
+Epoch 084 | Train loss: 13.959980 | Val loss: 13.997953 | epoch time: 2.74s
+Epoch 085 | Train loss: 13.896587 | Val loss: 13.974910 | epoch time: 2.84s
+Epoch 086 | Train loss: 13.895391 | Val loss: 13.943555 | epoch time: 2.64s
+Epoch 087 | Train loss: 13.859382 | Val loss: 13.992212 | epoch time: 2.78s
+Epoch 088 | Train loss: 13.835348 | Val loss: 13.905556 | epoch time: 2.69s
+Epoch 089 | Train loss: 13.805864 | Val loss: 13.966527 | epoch time: 2.68s
+Epoch 090 | Train loss: 13.789783 | Val loss: 13.945258 | epoch time: 2.69s
+Epoch 091 | Train loss: 13.782137 | Val loss: 13.937788 | epoch time: 2.73s
+Epoch 092 | Train loss: 13.761359 | Val loss: 13.853633 | epoch time: 2.77s
+Epoch 093 | Train loss: 13.745976 | Val loss: 13.934697 | epoch time: 2.50s
+Epoch 094 | Train loss: 13.733923 | Val loss: 13.843056 | epoch time: 2.75s
+Epoch 095 | Train loss: 13.717831 | Val loss: 13.937969 | epoch time: 2.60s
+Epoch 096 | Train loss: 13.712554 | Val loss: 13.764504 | epoch time: 2.40s
+Epoch 097 | Train loss: 13.704617 | Val loss: 13.881642 | epoch time: 2.58s
+Epoch 098 | Train loss: 13.646910 | Val loss: 13.850265 | epoch time: 2.61s
+Epoch 099 | Train loss: 13.627438 | Val loss: 13.844359 | epoch time: 2.47s
+Epoch 100 | Train loss: 13.611935 | Val loss: 13.781846 | epoch time: 2.56s
+Epoch 101 | Train loss: 13.798586 | Val loss: 13.960906 | epoch time: 2.38s
+Epoch 102 | Train loss: 13.842518 | Val loss: 14.314977 | epoch time: 2.54s
+Epoch 103 | Train loss: 13.941167 | Val loss: 13.743849 | epoch time: 2.50s
+Epoch 104 | Train loss: 13.818775 | Val loss: 13.840962 | epoch time: 2.48s
+Epoch 105 | Train loss: 13.708561 | Val loss: 13.722405 | epoch time: 2.50s
+Epoch 106 | Train loss: 13.630265 | Val loss: 13.769809 | epoch time: 2.54s
+Epoch 107 | Train loss: 13.570924 | Val loss: 13.747410 | epoch time: 2.46s
+Epoch 108 | Train loss: 13.538196 | Val loss: 13.747449 | epoch time: 2.80s
+Epoch 109 | Train loss: 13.539326 | Val loss: 13.729607 | epoch time: 2.43s
+Epoch 110 | Train loss: 13.523313 | Val loss: 13.705473 | epoch time: 2.78s
+Epoch 111 | Train loss: 13.548960 | Val loss: 13.642817 | epoch time: 2.73s
+Epoch 112 | Train loss: 13.573987 | Val loss: 13.675370 | epoch time: 2.74s
+Epoch 113 | Train loss: 13.517132 | Val loss: 13.667123 | epoch time: 2.82s
+Epoch 114 | Train loss: 13.512375 | Val loss: 13.691412 | epoch time: 2.72s
+Epoch 115 | Train loss: 13.502732 | Val loss: 13.650790 | epoch time: 2.43s
+Epoch 116 | Train loss: 13.503209 | Val loss: 13.806075 | epoch time: 2.73s
+Epoch 117 | Train loss: 13.542502 | Val loss: 13.792246 | epoch time: 2.43s
+Epoch 118 | Train loss: 13.505832 | Val loss: 13.633710 | epoch time: 2.45s
+Epoch 119 | Train loss: 13.471736 | Val loss: 13.652519 | epoch time: 2.44s
+Epoch 120 | Train loss: 13.463663 | Val loss: 13.634609 | epoch time: 2.77s
+Epoch 121 | Train loss: 13.462865 | Val loss: 13.656761 | epoch time: 2.43s
+Epoch 122 | Train loss: 13.459042 | Val loss: 13.641755 | epoch time: 2.65s
+Epoch 123 | Train loss: 13.453680 | Val loss: 13.626957 | epoch time: 2.41s
+Epoch 124 | Train loss: 13.451792 | Val loss: 13.640440 | epoch time: 2.81s
+Epoch 125 | Train loss: 13.452706 | Val loss: 13.649691 | epoch time: 2.45s
+Epoch 126 | Train loss: 13.443067 | Val loss: 13.617477 | epoch time: 2.51s
+Epoch 127 | Train loss: 13.453526 | Val loss: 13.666509 | epoch time: 2.37s
+Epoch 128 | Train loss: 13.441701 | Val loss: 13.606241 | epoch time: 2.57s
+Epoch 129 | Train loss: 13.439295 | Val loss: 13.657856 | epoch time: 2.42s
+Epoch 130 | Train loss: 13.430202 | Val loss: 13.706200 | epoch time: 2.54s
+Epoch 131 | Train loss: 13.430477 | Val loss: 13.628586 | epoch time: 2.55s
+Epoch 132 | Train loss: 13.430526 | Val loss: 13.701410 | epoch time: 2.54s
+Epoch 133 | Train loss: 13.423076 | Val loss: 13.658481 | epoch time: 2.57s
+Epoch 134 | Train loss: 13.423376 | Val loss: 13.660232 | epoch time: 2.59s
+Epoch 135 | Train loss: 13.411497 | Val loss: 13.656146 | epoch time: 2.55s
+Epoch 136 | Train loss: 13.410482 | Val loss: 13.667050 | epoch time: 2.62s
+Epoch 137 | Train loss: 13.410890 | Val loss: 13.635043 | epoch time: 2.63s
+Epoch 138 | Train loss: 13.408141 | Val loss: 13.628830 | epoch time: 2.50s
+Epoch 139 | Train loss: 13.408271 | Val loss: 13.644154 | epoch time: 2.68s
+Epoch 140 | Train loss: 13.405311 | Val loss: 13.653528 | epoch time: 2.49s
+Epoch 141 | Train loss: 13.402748 | Val loss: 13.632555 | epoch time: 2.62s
+Epoch 142 | Train loss: 13.401602 | Val loss: 13.647466 | epoch time: 2.62s
+Epoch 143 | Train loss: 13.400612 | Val loss: 13.637628 | epoch time: 2.42s
+Stopping. Best val: 13.606241 at epoch 128
