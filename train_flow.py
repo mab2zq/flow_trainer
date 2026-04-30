@@ -33,7 +33,7 @@ cluster = os.environ.get("CONDOR_CLUSTER")
 proc = os.environ.get("CONDOR_PROC")
 
 # Default behavior (original)
-save_dir = f"/afs/cern.ch/user/m/mbaessle/flow_trainer/checkpoints"
+save_dir = f"/eos/user/m/mbaessle/flow_trainer/checkpoints"
 
 training_loss_array = []
 validation_loss_array = []

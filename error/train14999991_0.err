@@ -1,5 +1,0 @@
-/pool/condor/dir_3238105/run_train.sh: line 8: cd: /afs/cern.ch/user/m/mbaessler/flow_trainer: No such file or directory
-  File "/pool/condor/dir_3238105/train_flow.py", line 144
-    	    torch.save(
-    ^
-TabError: inconsistent use of tabs and spaces in indentation

@@ -1,10 +1,11 @@
+
 executable = run_train.sh
 
 output = output/train$(Cluster)_$(Process).out
 error  = error/train$(Cluster)_$(Process).err
 log    = log/train$(Cluster)_$(Process).log
 
-environment = "CONDOR_CLUSTER=$(Cluster);CONDOR_PROC=$(Process)"
+environment = CONDOR_CLUSTER=$(Cluster); CONDOR_PROC=$(Process)
 
 request_gpus = 1
 
@@ -17,6 +18,7 @@ gpus_minimum_memory = 4GB
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 transfer_input_files = train_flow.py, model_setup.py
+transfer_output_files =checkpoints/best_model_$(Cluster).pth 
 
 +JobFlavour = "tomorrow"
 
