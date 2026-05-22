@@ -18,7 +18,8 @@ gpus_minimum_memory = 4GB
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 transfer_input_files = train_flow.py, model_setup.py
-transfer_output_files =checkpoints/best_model_$(Cluster).pth 
+output_destination = root://eosuser.cern.ch//eos/user/m/mbaessle/flow_trainer/
+
 
 +JobFlavour = "tomorrow"
 
