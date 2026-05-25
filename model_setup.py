@@ -31,17 +31,17 @@ conditions_dim = 0 if training_conditions is None else training_conditions.shape
 # -------------------------
 # Hyperparameters
 # -------------------------
-n_transforms = 2
+n_transforms = 3
 n_splines_bins = 24
 aux_nodes = 512
 aux_layers = 3
 n_passes_flow = 2
-initial_lr = 3e-3
+initial_lr = 1e-3
 scheduler_patience = 5
 early_stop_patience = 15
-batch_size = 8192*4
+batch_size = 32768
 weight_decay = 1e-5
-max_epoch_number = 250
+max_epoch_number = 1000
 
 # --------------------------
 # Parameter Printer 
